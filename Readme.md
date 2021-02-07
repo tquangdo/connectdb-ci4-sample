@@ -15,13 +15,13 @@ DIRECTORY STRUCTURE
 # EDIT in "codeigniter4" folder
 0. `www/codeigniter4/app/Config/Database.php`
 + NO need config DB
-+ output DB connection on browser
++ echo output DB connection on browser
 ```php
 public function __construct() {
     ...
     else {
-			echo json_encode($this->default);
-		}
+	echo json_encode($this->default);
+    }
 }
 ```
 
